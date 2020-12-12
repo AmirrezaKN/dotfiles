@@ -210,11 +210,22 @@ assign [class="Firefox"] $ws2
 
 
 # Startup Stuff
+# Setting Background
 exec_always --no-startup-id "feh --bg-scale --randomize ~/Documents/Wallpaperflare"
+
+# Audio Control
 # exec --no-startup-id kmix
-exec polybar example
+
+# Polybar
+exec_always ~/.config/polybar/launch.sh
+
+# Keyboard Backlight
 exec xset led 3
+
+# Terminal Transparency
 exec picom
+
+# Messengers
 exec skypeforlinux
 exec ~/Downloads/tsetup.2.4.7/Telegram/Telegram
 exec discord
