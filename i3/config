@@ -187,9 +187,15 @@ bindsym $mod+r mode "resize"
 # new_window 1pixel
 for_window [class="^.*"] border pixel 1
 
+# How to build and install i3-gaps
+# https://github.com/Airblader/i3/wiki/Building-from-source
+
 # Adding Gaps
-# gaps inner 10
-# gaps outer 10
+gaps inner 5
+gaps outer 5
+
+# Only enable gaps on a workspace when there is at least one container
+smart_gaps on
 
 # Assign Workspace for applications
 # Skype

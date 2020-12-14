@@ -70,9 +70,9 @@ modules-left = bspwm i3
 modules-center = date
 modules-right =
 
-;tray-position = right
-;tray-padding = 2
-;tray-background = #0063ff
+tray-position = right
+tray-padding = 5
+tray-background = ${colors.background}
 
 ;wm-restack = bspwm
 ;wm-restack = i3
