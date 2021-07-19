@@ -217,7 +217,7 @@ assign [class="Firefox"] $ws2
 
 # Startup Stuff
 # Setting Background
-exec_always --no-startup-id "feh --bg-scale --randomize ~/Documents/Wallpaperflare"
+exec_always --no-startup-id "feh --bg-scale --randomize ~/Pictures/wallpaper"
 
 # Add Persian Keyboard Layout Toggle
 exec_always exec "setxkbmap -option 'grp:alt_shift_toggle' -layout us,ir"
