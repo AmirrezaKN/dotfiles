@@ -232,7 +232,8 @@ exec_always ~/.config/polybar/launch.sh
 exec xset led 3
 
 # Terminal Transparency
-exec picom
+exec picom -b --no-vsync --no-fading-openclose --inactive-opacity=1.0 --fade-in-step=1.0 --fade-out-step=1.0 --detect-client-opacity
+#exec --no-startup-id sh ~/.config/i3/launch-picom.sh
 
 # Messengers
 exec skypeforlinux
