@@ -237,6 +237,10 @@ exec_always ~/.config/polybar/launch.sh
 # Keyboard Backlight
 #exec xset led 3
 
+# Enable Touchpad tapping
+# Thinkbook SnappKitchen
+exec xinput set-prop "MSFT0001:01 04F3:3140 Touchpad" "libinput Tapping Enabled" 1
+
 # Terminal Transparency
 exec picom -b --no-vsync --no-fading-openclose --inactive-opacity=1.0 --fade-in-step=1.0 --fade-out-step=1.0 --detect-client-opacity
 #exec --no-startup-id sh ~/.config/i3/launch-picom.sh
